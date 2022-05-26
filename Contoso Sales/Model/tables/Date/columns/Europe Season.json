@@ -1,0 +1,12 @@
+{
+  "name": "Europe Season",
+  "dataType": "string",
+  "sourceColumn": "Europe Season",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "House Ownership",
+  "dataType": "string",
+  "sourceColumn": "House Ownership",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

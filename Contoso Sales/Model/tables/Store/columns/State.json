@@ -1,0 +1,12 @@
+{
+  "name": "State",
+  "dataType": "string",
+  "sourceColumn": "State",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

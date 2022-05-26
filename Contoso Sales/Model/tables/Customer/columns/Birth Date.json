@@ -1,0 +1,17 @@
+{
+  "name": "Birth Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Birth Date",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

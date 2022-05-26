@@ -1,0 +1,13 @@
+{
+  "name": "Calendar Year Month",
+  "dataType": "string",
+  "sourceColumn": "Calendar Year Month",
+  "sortByColumn": "Calendar Year Month Number",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

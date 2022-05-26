@@ -1,0 +1,12 @@
+{
+  "name": "Working Day",
+  "dataType": "string",
+  "sourceColumn": "Working Day",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

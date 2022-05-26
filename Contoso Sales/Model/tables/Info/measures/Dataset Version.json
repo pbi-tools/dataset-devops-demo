@@ -1,0 +1,9 @@
+{
+  "name": "Dataset Version",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

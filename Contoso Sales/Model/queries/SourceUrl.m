@@ -1,0 +1,1 @@
+"https://raw.githubusercontent.com/pbi-tools/contoso-sales-model/main/data/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=false]

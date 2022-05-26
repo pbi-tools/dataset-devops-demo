@@ -1,0 +1,13 @@
+{
+  "name": "Yearly Income",
+  "dataType": "double",
+  "sourceColumn": "Yearly Income",
+  "formatString": "#,0.00",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

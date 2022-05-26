@@ -1,0 +1,51 @@
+{
+  "version": "0.12",
+  "created": "2022-05-25T15:24:03.2613259+01:00",
+  "deployments": {
+    "Contoso": {
+      "mode": "Dataset",
+      "source": {
+        "type": "Folder",
+        "path": "./Contoso Sales"
+      },
+      "authentication": {
+        "type": "ServicePrincipal",
+        "tenantId": "pbitools.org",
+        "clientId": "708b6947-c640-4a74-9100-e4b3312b7182",
+        "clientSecret": "%PBI_CLIENT_SECRET%"
+      },
+      "options": {
+        "refresh": {
+          "skipNewDataset": true,
+          "method": "XMLA",
+          "type": "Full"
+        },
+        "dataset": {
+          "replaceParameters": true
+        }
+      },
+      "parameters": {
+        "Version": "1.0.0",
+        "GH-Branch": "%GITHUB_REF_NAME%",
+        "GH-RunId": "%GITHUB_RUN_ID%",
+        "GH-SHA": "%GITHUB_SHA%"
+      },
+      "environments": {
+        "Development": {
+          "workspace": "Datasets [DEV]",
+          "displayName": "{{PBIXPROJ_FOLDER}} [DEV]",
+          "refresh": true
+        },
+        "UAT": {
+          "workspace": "Datasets [PROD]",
+          "displayName": "{{PBIXPROJ_FOLDER}} [UAT]",
+          "refresh": true
+        },
+        "Production": {
+          "workspace": "Datasets [PROD]",
+          "refresh": true
+        }
+      }
+    }
+  }
+}

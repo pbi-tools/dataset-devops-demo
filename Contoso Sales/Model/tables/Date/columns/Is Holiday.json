@@ -1,0 +1,13 @@
+{
+  "name": "Is Holiday",
+  "dataType": "boolean",
+  "sourceColumn": "Is Holiday",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Info",
+  "partitions": [
+    {
+      "name": "Info-f44d74ec-0372-4982-8ace-63656474683c",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

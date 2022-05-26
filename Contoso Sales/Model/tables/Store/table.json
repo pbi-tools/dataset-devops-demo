@@ -1,0 +1,18 @@
+{
+  "name": "Store",
+  "partitions": [
+    {
+      "name": "Store",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

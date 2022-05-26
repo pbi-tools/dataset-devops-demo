@@ -1,0 +1,13 @@
+{
+  "name": "Customer Code",
+  "dataType": "string",
+  "sourceColumn": "Customer Code",
+  "dataCategory": "PostalCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Start Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Start Date",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

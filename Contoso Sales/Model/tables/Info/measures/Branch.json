@@ -1,0 +1,9 @@
+{
+  "name": "Branch",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

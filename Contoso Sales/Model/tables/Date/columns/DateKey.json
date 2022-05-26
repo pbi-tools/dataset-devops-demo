@@ -1,0 +1,17 @@
+{
+  "name": "DateKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "DateKey",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

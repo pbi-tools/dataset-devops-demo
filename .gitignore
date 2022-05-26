@@ -1,0 +1,6 @@
+query.json
+dataTransforms.json
+
+*.pbix
+*.pbit
+*.bim

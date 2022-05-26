@@ -1,0 +1,12 @@
+{
+  "name": "North America Season",
+  "dataType": "string",
+  "sourceColumn": "North America Season",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

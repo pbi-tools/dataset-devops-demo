@@ -1,0 +1,12 @@
+{
+  "name": "Marital Status",
+  "dataType": "string",
+  "sourceColumn": "Marital Status",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

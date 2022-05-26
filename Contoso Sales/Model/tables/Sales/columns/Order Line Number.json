@@ -1,0 +1,17 @@
+{
+  "name": "Order Line Number",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Order Line Number",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

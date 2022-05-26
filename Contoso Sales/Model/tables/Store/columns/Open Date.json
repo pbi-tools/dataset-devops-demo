@@ -1,0 +1,17 @@
+{
+  "name": "Open Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Open Date",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

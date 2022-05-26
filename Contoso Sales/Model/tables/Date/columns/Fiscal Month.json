@@ -1,0 +1,13 @@
+{
+  "name": "Fiscal Month",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Month",
+  "sortByColumn": "Fiscal Month Number",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

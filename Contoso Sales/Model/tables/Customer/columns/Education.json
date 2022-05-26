@@ -1,0 +1,12 @@
+{
+  "name": "Education",
+  "dataType": "string",
+  "sourceColumn": "Education",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

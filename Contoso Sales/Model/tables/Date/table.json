@@ -1,0 +1,19 @@
+{
+  "name": "Date",
+  "dataCategory": "Time",
+  "partitions": [
+    {
+      "name": "Date",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

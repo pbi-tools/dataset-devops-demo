@@ -1,0 +1,13 @@
+{
+  "name": "Calendar Year Quarter",
+  "dataType": "string",
+  "sourceColumn": "Calendar Year Quarter",
+  "sortByColumn": "Calendar Year Quarter Number",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

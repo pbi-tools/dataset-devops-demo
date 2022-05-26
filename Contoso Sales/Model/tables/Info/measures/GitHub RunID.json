@@ -1,0 +1,9 @@
+{
+  "name": "GitHub RunID",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

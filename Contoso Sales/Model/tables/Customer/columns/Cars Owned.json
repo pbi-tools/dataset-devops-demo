@@ -1,0 +1,16 @@
+{
+  "name": "Cars Owned",
+  "dataType": "int64",
+  "sourceColumn": "Cars Owned",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

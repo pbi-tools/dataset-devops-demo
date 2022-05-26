@@ -1,0 +1,17 @@
+{
+  "name": "Last Remodel Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Last Remodel Date",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

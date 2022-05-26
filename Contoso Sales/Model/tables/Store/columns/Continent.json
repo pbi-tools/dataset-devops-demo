@@ -1,0 +1,13 @@
+{
+  "name": "Continent",
+  "dataType": "string",
+  "sourceColumn": "Continent",
+  "dataCategory": "Continent",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

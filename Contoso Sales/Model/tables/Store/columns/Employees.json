@@ -1,0 +1,16 @@
+{
+  "name": "Employees",
+  "dataType": "int64",
+  "sourceColumn": "Employees",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

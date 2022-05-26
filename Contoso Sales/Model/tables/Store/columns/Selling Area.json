@@ -1,0 +1,16 @@
+{
+  "name": "Selling Area",
+  "dataType": "double",
+  "sourceColumn": "Selling Area",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

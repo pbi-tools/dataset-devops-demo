@@ -1,0 +1,17 @@
+{
+  "name": "ProductKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ProductKey",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

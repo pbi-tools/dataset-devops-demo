@@ -1,0 +1,13 @@
+{
+  "name": "Order Number",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "Order Number",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

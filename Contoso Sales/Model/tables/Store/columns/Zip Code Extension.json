@@ -1,0 +1,13 @@
+{
+  "name": "Zip Code Extension",
+  "dataType": "string",
+  "sourceColumn": "Zip Code Extension",
+  "dataCategory": "PostalCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

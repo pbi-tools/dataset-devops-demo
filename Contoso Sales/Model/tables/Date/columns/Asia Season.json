@@ -1,0 +1,12 @@
+{
+  "name": "Asia Season",
+  "dataType": "string",
+  "sourceColumn": "Asia Season",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

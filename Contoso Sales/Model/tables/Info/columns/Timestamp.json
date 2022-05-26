@@ -1,0 +1,18 @@
+{
+  "name": "Timestamp",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "Timestamp",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

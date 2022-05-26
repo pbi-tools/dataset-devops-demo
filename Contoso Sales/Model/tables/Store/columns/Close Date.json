@@ -1,0 +1,17 @@
+{
+  "name": "Close Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Close Date",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

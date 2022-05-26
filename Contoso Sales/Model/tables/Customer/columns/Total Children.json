@@ -1,0 +1,16 @@
+{
+  "name": "Total Children",
+  "dataType": "int64",
+  "sourceColumn": "Total Children",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

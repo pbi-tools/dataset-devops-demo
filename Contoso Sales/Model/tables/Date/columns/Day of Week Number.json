@@ -1,0 +1,17 @@
+{
+  "name": "Day of Week Number",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Day of Week Number",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

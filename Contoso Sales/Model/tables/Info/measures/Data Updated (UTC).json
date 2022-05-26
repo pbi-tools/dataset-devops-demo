@@ -1,0 +1,14 @@
+{
+  "name": "Data Updated (UTC)",
+  "formatString": "dd-mmm-yyyy hh:mm",
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}
