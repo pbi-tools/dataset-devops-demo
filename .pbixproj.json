@@ -25,7 +25,7 @@
         }
       },
       "parameters": {
-        "Version": "1.0.0",
+        "Version": "1.1.0",
         "GH-Branch": "%GITHUB_REF_NAME%",
         "GH-RunId": "%GITHUB_RUN_ID%",
         "GH-SHA": "%GITHUB_SHA%"
