@@ -86,6 +86,11 @@
         "name": "[GH-Branch]",
         "kind": "m",
         "queryGroup": "Parameters"
+      },
+      {
+        "name": "[FilterDate]",
+        "kind": "m",
+        "queryGroup": "Parameters"
       }
     ],
     "queryGroups": [
