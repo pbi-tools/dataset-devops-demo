@@ -21,7 +21,8 @@
           "type": "Full"
         },
         "dataset": {
-          "replaceParameters": true
+          "replaceParameters": true,
+          "deployEmbeddedReport": true
         }
       },
       "parameters": {
@@ -40,7 +41,10 @@
         "UAT": {
           "workspace": "Datasets [PROD]",
           "displayName": "{{PBIXPROJ_FOLDER}} [UAT]",
-          "refresh": true
+          "refresh": true,
+          "report": {
+            "skip": false
+          }
         },
         "Production": {
           "workspace": "Datasets [PROD]",
