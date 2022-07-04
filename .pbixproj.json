@@ -18,7 +18,29 @@
         "refresh": {
           "skipNewDataset": true,
           "method": "XMLA",
-          "type": "Full"
+          "type": "Full",
+          "tracing": {
+            "enabled": true,
+            "logEvents": {
+              "filter": [
+                "*|TabularRefresh|Partition",
+                "*|ReadData|Partition"
+              ]
+            },
+            "summary": {
+              "events": [
+                "TabularRefresh",
+                "Process",
+                "ReadData",
+                "ExecuteSql"
+              ],
+              "objectTypes": [
+                "Partition"
+              ],
+              "outPath": "refresh_stats.csv",
+              "console": true
+            }
+          }
         },
         "dataset": {
           "replaceParameters": true,
