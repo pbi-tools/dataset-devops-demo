@@ -28,9 +28,11 @@
       "parameters": {
         "[Version]": "1.1.0",
         "[Environment]": "{{ENVIRONMENT}}",
+        "[PBITOOLS_VERSION]": "{{PBITOOLS_VERSION}}",
         "[GH-Branch]": "%GITHUB_REF_NAME%",
         "[GH-RunId]": "%GITHUB_RUN_ID%",
         "[GH-SHA]": "%GITHUB_SHA%",
+        "[FilterDate]": null
       },
       "environments": {
         "Development": {

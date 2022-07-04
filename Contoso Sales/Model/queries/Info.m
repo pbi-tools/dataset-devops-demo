@@ -11,6 +11,7 @@ let
         { "GitHub SHA",         null,   #"[GH-SHA]" },
         { "GitHub RunID",       null,   #"[GH-RunId]" },
         { "Branch",             null,   #"[GH-Branch]" },
+        { "pbi-tools Version",  null,   #"[PBITOOLS_VERSION]" },
         { "Environment",        null,   #"[Environment]"}
     }
 )

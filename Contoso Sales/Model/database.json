@@ -91,6 +91,11 @@
         "name": "[FilterDate]",
         "kind": "m",
         "queryGroup": "Parameters"
+      },
+      {
+        "name": "[PBITOOLS_VERSION]",
+        "kind": "m",
+        "queryGroup": "Parameters"
       }
     ],
     "queryGroups": [
