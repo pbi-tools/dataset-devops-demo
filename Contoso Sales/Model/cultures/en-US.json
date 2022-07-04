@@ -13,12 +13,18 @@
       "name": "Model",
       "tables": [
         {
+          "name": "Metric",
+          "translatedCaption": "Metric",
+          "columns": [
+            {
+              "name": "Metric",
+              "translatedCaption": "Metric"
+            }
+          ]
+        },
+        {
           "name": "Sales",
           "measures": [
-            {
-              "name": "Total Cost",
-              "translatedCaption": "Total Cost"
-            },
             {
               "name": "Margin",
               "translatedCaption": "Margin"
@@ -26,6 +32,10 @@
             {
               "name": "Sales Quantity",
               "translatedCaption": "Sales Quantity"
+            },
+            {
+              "name": "Total Cost",
+              "translatedCaption": "Total Cost"
             }
           ]
         },
@@ -36,16 +46,6 @@
             {
               "name": "Time Calc",
               "translatedCaption": "Time Calc"
-            }
-          ]
-        },
-        {
-          "name": "Metric",
-          "translatedCaption": "Metric",
-          "columns": [
-            {
-              "name": "Metric",
-              "translatedCaption": "Metric"
             }
           ]
         }

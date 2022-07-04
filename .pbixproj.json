@@ -25,10 +25,11 @@
         }
       },
       "parameters": {
-        "Version": "1.1.0",
-        "GH-Branch": "%GITHUB_REF_NAME%",
-        "GH-RunId": "%GITHUB_RUN_ID%",
-        "GH-SHA": "%GITHUB_SHA%"
+        "[Version]": "1.1.0",
+        "[Environment]": "{{ENVIRONMENT}}",
+        "[GH-Branch]": "%GITHUB_REF_NAME%",
+        "[GH-RunId]": "%GITHUB_RUN_ID%",
+        "[GH-SHA]": "%GITHUB_SHA%",
       },
       "environments": {
         "Development": {
