@@ -46,3 +46,10 @@ jobs:
           /app/pbi-tools/pbi-tools.core deploy . "$PROFILE"
         env:
           PBI_CLIENT_SECRET: ${{ secrets.PBI_CLIENT_SECRET }}
+
+      - name: Store refresh summary as artifact
+        uses: actions/upload-artifact@v3
+        if: ${{ github.event.inputs.whatIf != 'true' }}
+        with:
+          name: Refresh Summary
+          path: refresh_stats.csv
