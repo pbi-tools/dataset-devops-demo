@@ -1,5 +1,16 @@
 {
-  "version": "0.11",
+  "version": "0.12",
   "created": "2022-05-24T11:48:58.4881844+01:00",
-  "lastModified": "2022-05-25T22:20:04.3043579+01:00"
+  "lastModified": "2022-07-03T18:18:05.2309008+01:00",
+  "settings": {
+    "model": {
+      "serializationMode": "Default",
+      "annotations": {
+        "exclude": [
+          "PBI_NavigationStepName",
+          "PBI_ResultType"
+        ]
+      }
+    }
+  }
 }
