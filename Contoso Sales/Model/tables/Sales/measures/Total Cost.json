@@ -1,4 +1,14 @@
 {
   "name": "Total Cost",
-  "formatString": "#,##0.00"
+  "formatString": "\"$\"#,0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
 }

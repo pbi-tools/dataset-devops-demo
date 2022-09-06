@@ -8,11 +8,5 @@
         "type": "m"
       }
     }
-  ],
-  "annotations": [
-    {
-      "name": "PBI_ResultType",
-      "value": "Table"
-    }
   ]
 }

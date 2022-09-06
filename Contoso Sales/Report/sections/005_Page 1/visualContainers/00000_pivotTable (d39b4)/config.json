@@ -1,0 +1,137 @@
+{
+  "name": "d39b41f2e5f5595a3b8e",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 16,
+        "y": 16,
+        "z": 0,
+        "width": 928,
+        "height": 448
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "Product.Category-Subcategory.Category",
+          "active": true
+        },
+        {
+          "queryRef": "Product.Category-Subcategory.Subcategory"
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sales.Sales Quantity"
+        },
+        {
+          "queryRef": "Sales.Sales Amount"
+        },
+        {
+          "queryRef": "Sales.Total Cost"
+        },
+        {
+          "queryRef": "Sales.Margin"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "p",
+          "Entity": "Product",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Category-Subcategory"
+              }
+            },
+            "Level": "Category"
+          },
+          "Name": "Product.Category-Subcategory.Category"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Category-Subcategory"
+              }
+            },
+            "Level": "Subcategory"
+          },
+          "Name": "Product.Category-Subcategory.Subcategory"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Sales Quantity"
+          },
+          "Name": "Sales.Sales Quantity"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Sales Amount"
+          },
+          "Name": "Sales.Sales Amount"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Total Cost"
+          },
+          "Name": "Sales.Total Cost"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Margin"
+          },
+          "Name": "Sales.Margin"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

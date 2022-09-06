@@ -11,6 +11,6 @@ A fully functioning and refreshable PBIT file can be generated from sources in t
 
 ## Generate PBIT file from sources
 
-    pbi-tools compile '.\Introducing calculation groups' -format PBIT
+    pbi-tools compile '.\Contoso Sales' -format PBIT
 
 _Requires `pbi-tools`, [1.0.0-beta.6](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-beta.6) or [later](https://github.com/pbi-tools/pbi-tools/releases/latest) release._

@@ -1,4 +1,14 @@
 {
   "name": "Sales Amount",
-  "formatString": "#,0.00"
+  "formatString": "\"$\"#,0",
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
 }

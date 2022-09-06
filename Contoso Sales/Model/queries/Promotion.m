@@ -1,5 +1,5 @@
 let
-    Source = Web.Contents(SourceUrl & "Promotion.csv"),
+    Source = Web.Contents(#"[SourceUrl]" & "Promotion.csv"),
     Csv = Csv.Document(Source),
     #"Promoted Headers" = Table.PromoteHeaders(Csv, [PromoteAllScalars=true]),
     #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"PromotionKey", Int64.Type}, {"Promotion Code", type text}, {"Promotion", type text}, {"Discount", type number}, {"Promotion Type", type text}, {"Promotion Category", type text}}),
