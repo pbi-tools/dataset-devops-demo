@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: UAT
     container:
-      image: ghcr.io/pbi-tools/pbi-tools-core:1.0.0-rc.2_20220525
+      image: ghcr.io/pbi-tools/pbi-tools-core:1.0.0-rc.2_preview.4
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
