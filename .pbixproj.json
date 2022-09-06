@@ -16,6 +16,7 @@
       },
       "options": {
         "refresh": {
+          "enabled": true,
           "skipNewDataset": true,
           "method": "XMLA",
           "type": "Full",
@@ -60,19 +61,16 @@
         "Development": {
           "workspace": "Datasets [DEV]",
           "displayName": "{{PBIXPROJ_FOLDER}} [DEV]",
-          "refresh": true
+          "refresh": {}
         },
         "UAT": {
           "workspace": "Datasets [PROD]",
           "displayName": "{{PBIXPROJ_FOLDER}} [UAT]",
-          "refresh": true,
-          "report": {
-            "skip": false
-          }
+          "refresh": {}
         },
         "Production": {
           "workspace": "Datasets [PROD]",
-          "refresh": true
+          "refresh": {}
         }
       }
     }
